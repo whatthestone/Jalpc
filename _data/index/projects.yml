@@ -1,22 +1,24 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Jalpc
-  i18n: jalpc
-  gh_user: jarrekk
-  repo: Jalpc
-  img: /static/assets/img/landing/jekyll.png
-  desc: This project is my project. I use javescript to get repo's information all my repos have only one request.
+- name: Emeraldo
+  i18n: emeraldo
+  gh_user: CS2103AUG2016-T10-C3
+  repo: main
+  img: /static/assets/img/landing/emeraldo.png
+  desc: A command-line task manager written in java for a software engineering module.
 
-- name: Python
-  i18n: cpython
-  gh_user: python
-  repo: cpython
-  img: /static/assets/img/landing/python.png
-  desc: This project is other's project. I use another request to get repo's information.
+- name: GramPS
+  i18n: gramps
+  url: https://whatthestone.github.io/kaising
+  img: /static/assets/img/landing/gramps.png
+  desc: A GPS watch to encourage the elderly with restricted mobility to leave the house, done for a design thinking module.
 
-- name: Google
-  i18n: google
-  url: https://google.com
-  img: /static/assets/img/landing/google.png
-  desc: This is another project.
+
+- name: PG13 Telegram Bot
+  i18n: pg13
+  gh_user: HnR2017
+  repo: PG13Bot
+  img: /static/assets/img/landing/pg13.png
+  desc: An extremely simple swear-words filtering bot made for a hackathon. Just for fun.
+
