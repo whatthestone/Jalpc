@@ -10,7 +10,7 @@
 
 - name: GramPS
   i18n: gramps
-  url: https://whatthestone.github.io/kaising
+  url: https://whatthestone.github.io/kaising/portfolio/2016/11/10/Gramps.html
   img: /static/assets/img/landing/gramps.png
   desc: A GPS watch to encourage the elderly with restricted mobility to leave the house, done for a design thinking module.
 
