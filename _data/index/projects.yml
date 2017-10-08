@@ -12,13 +12,11 @@
   i18n: gramps
   url: https://whatthestone.github.io/kaising/portfolio/2016/11/10/Gramps.html
   img: /static/assets/img/landing/gramps.png
-  desc: A GPS watch to encourage the elderly with restricted mobility to leave the house, done for a design thinking module.
+  desc: A GPS smart watch to encourage elderly with restricted mobility to go the extra mile! A design project for Innovation and Design Centric Program.
 
-
-- name: PG13 Telegram Bot
-  i18n: pg13
-  gh_user: HnR2017
-  repo: PG13Bot
-  img: /static/assets/img/landing/pg13.png
-  desc: An extremely simple swear-words filtering bot made for a hackathon. Just for fun.
+- name: MedSlack
+  i18n: medslack 
+  url: https://whatthestone.github.io/kaising/portfolio/2017/10/08/MedSlack.html
+  img: /static/assets/img/landing/medslack.png
+  desc: Mess-free solution to collect and analyse vital signs. A design project for Innovation and Design Centric Program.
 

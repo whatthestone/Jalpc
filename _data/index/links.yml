@@ -1,18 +1,17 @@
 # links section data
-- last_name: Name 1
+- last_name: View on Google Drive
   first_name:
-  desc: CEO
-  website: https://www.google.com
-  email: ceo@google.com
+  desc: Updated Oct 10, 2017
+  website: https://whatthestone.github.io/kaising/Kai_Sing_Ng_Resume.pdf
 
-- last_name: Name 2
-  first_name: 
-  desc: CTO
-  website: 
-  email: cto@google.com
+# - last_name: Name 2
+#   first_name: 
+#   desc: CTO
+#   website: 
+#   email: cto@google.com
 
-- last_name: LN
-  first_name: FN
-  desc: COO
-  website: https://github.com
-  email: coo@google.com
+# - last_name: LN
+#   first_name: FN
+#   desc: COO
+#   website: https://github.com
+#   email: coo@google.com
