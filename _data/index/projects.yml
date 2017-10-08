@@ -10,13 +10,12 @@
 
 - name: GramPS
   i18n: gramps
-  url: https://whatthestone.github.io/kaising/portfolio/2016/11/10/Gramps.html
+  url: /kaising/portfolio/2016/11/10/Gramps.html
   img: /static/assets/img/landing/gramps.png
-  desc: A GPS smart watch to encourage elderly with restricted mobility to go the extra mile! A design project for Innovation and Design Centric Program.
+  desc: A GPS smart watch to encourage elderly with restricted mobility to go the extra mile! 
 
 - name: MedSlack
   i18n: medslack 
-  url: https://whatthestone.github.io/kaising/portfolio/2017/10/08/MedSlack.html
+  url: /kaising/portfolio/2017/10/08/MedSlack.html
   img: /static/assets/img/landing/medslack.png
-  desc: Mess-free solution to collect and analyse vital signs. A design project for Innovation and Design Centric Program.
-
+  desc: Mess-free solution to collect and analyse vital signs. 
