@@ -16,7 +16,7 @@ author:  # change following line to your infomation.
   last_name: Ng  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
   github_username: whatthestone  # Leave blank if you don't have now
-  linkedin_id: whatthestone # Leave blank if you don't have now
+  linkedin_id: kaising-ng # Leave blank if you don't have now
   facebook_username: kaising  # Leave blank if you don't have now
   twitter_username:   # Leave blank if you don't have now
   email: kaising.n@gmail.com  # Leave blank if you don't have now
