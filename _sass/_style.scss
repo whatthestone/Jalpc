@@ -2647,6 +2647,21 @@ body {
       background: #3385FF;
     }
   }
+
+  .about-icon a {
+    background: #3385FF;
+    color: #fff;
+    padding: 4px 8px;
+    height: 28px;
+    width: 84px;
+    display: block;
+    border-radius: 50px;
+    horizontal-align: center;
+    &:hover {
+      background: #3385FF;
+    }
+  }
+
   .img-small {
     height: 88px;
     width: 88px;
