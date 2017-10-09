@@ -6,8 +6,8 @@
 - name: Portfolio
   href: /portfolio/
 
-- name: Personal Statement
-  href: /about/
+# - name: Personal Statement
+#   href: /about/
 
 # - name: HTML
 #   href: /html/
