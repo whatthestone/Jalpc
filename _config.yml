@@ -1,7 +1,7 @@
 # Welcome to Jekyll!
 
 # Website settings
-title: Ng Kai Sing
+title: Kai Sing, NG
 description: Hello, this is Kai Sing
 keywords: Kai Sing
 baseurl:  /kaising # if you have suburl as homepage like '/homepage', please change it to '/homepage' and your repo's name should be 'homepage'
@@ -11,7 +11,7 @@ img_path: /kaising/static/assets/img/blog  # url should be '/homepage/static/ass
 
 # author -- index page "about me" section
 author:  # change following line to your infomation.
-  name: Ng Kai Sing  # Be used at blog posts' author.
+  name: Kai Sing, NG  # Be used at blog posts' author.
   first_name: Kai Sing  # Be used at index page about me section.
   last_name: Ng  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.

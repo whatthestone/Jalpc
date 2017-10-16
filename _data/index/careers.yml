@@ -4,7 +4,7 @@
     detail: Red Dot Robotics
     i18n: company_a
   desc:
-    detail: Worked on various parts of autonomous vehicles, including computer vision, Robot Operating Systems, CAN bus, Lidar etc.
+    detail: Worked on autonomous vehicles, including computer vision, Robot Operating Systems, CAN bus, Lidar etc.
     i18n: company_a_desc
   date:
     detail: Jul. 2017
@@ -18,7 +18,7 @@
     detail: ExchangeBuddy
     i18n: company_b
   desc:
-    detail: Mainly worked on Frontend, UI/UX, and designed company logo. Also aided in marketing.
+    detail: Frontend development, UI/UX, company logo design and marketing efforts.
     i18n: company_b_desc
   date:
     detail: Dec. 2016
@@ -29,10 +29,10 @@
   icon: fa-plus-square
 
 - name:
-    detail: Graphic Designing
+    detail: Graphing Design
     i18n: company_d
   desc:
-    detail: Designed name cards for a Diving Instructor
+    detail: Designed name cards for a Diving Instructor.
     i18n: company_d_desc
   date:
     detail: Mar. 2015
