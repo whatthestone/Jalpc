@@ -1,27 +1,27 @@
 # careers section data
 # if you don't have language feature(language.yml is empty), ignore "i18n" items
 - name:
-    detail: Red Dot Robotics
+    detail: Ninja Van
     i18n: company_a
   desc:
-    detail: Worked on autonomous vehicles, including computer vision, Robot Operating Systems, CAN bus, Lidar etc.
+    detail: Undertook the low-cost dimensioning project to prepare for rolling out, created personalized scoping canvas for internal use, pioneered PM workshops for university outreach.
     i18n: company_a_desc
   date:
-    detail: Jul. 2017
+    detail: Jun 2019 - Aug 2019
     i18n: company_a_date
   job:
-    detail: Robotics Engineer Intern
+    detail: Product Management Intern
     i18n: company_a_job
   icon: fa-plus-square
 
 - name:
-    detail: ExchangeBuddy
+    detail: Elevate Security
     i18n: company_b
   desc:
-    detail: Frontend development, UI/UX, company logo design and marketing efforts.
+    detail: Designed and implemented features for an online platform for security behavioural change, Hackers' Mind. Piloted the first-ever security behavioural measurement scorecard for client's employees. Produced company's first promotional video for hiring.
     i18n: company_b_desc
   date:
-    detail: Dec. 2016
+    detail: Jan 2019 - Dec 2019
     i18n: company_b_date
   job:
     detail: Software Engineering Intern
@@ -29,15 +29,29 @@
   icon: fa-plus-square
 
 - name:
-    detail: Graphing Design
+    detail: Red Dot Robotics
+    i18n: company_c
+  desc:
+    detail: Worked on autonomous vehicles, including computer vision, Robot Operating Systems, CAN bus, Lidar etc.
+    i18n: company_c_desc
+  date:
+    detail: Jul. 2017
+    i18n: company_c_date
+  job:
+    detail: Robotics Engineer Intern
+    i18n: company_c_job
+  icon: fa-plus-square
+
+- name:
+    detail: ExchangeBuddy
     i18n: company_d
   desc:
-    detail: Designed name cards for a Diving Instructor.
+    detail: Frontend development, UI/UX, company logo design and marketing efforts.
     i18n: company_d_desc
   date:
-    detail: Mar. 2015
+    detail: Dec. 2016
     i18n: company_d_date
   job:
-    detail: Freelancer
+    detail: Software Engineering Intern
     i18n: company_d_job
   icon: fa-plus-square
