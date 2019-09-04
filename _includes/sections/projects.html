@@ -10,14 +10,14 @@
             {% assign loopindex = forloop.index | modulo: 2 %}
             {% if forloop.last %}
                 {% if forloop.last == forloop.first %}
-            <div class="col-sm-6 wow col-sm-offset-3 zoomIn">
+            <div class="col-sm-4 wow zoomIn">
                 {% else %}
-            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft col-sm-offset-3 {% else %} fadeInRight {% endif %}">
+            <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
                 {% endif %}
             {% else %}
-            <div class="col-sm-6 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
+            <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
-              <div class="team-member">
+              <div class="team-member" style="padding: 10px">
                   <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4>
                   {% if project.url %}
@@ -37,9 +37,14 @@
                   </div>
                   {% endif %}
                   {% if project.portfolio %}
-                  
-                    <a target="_blank" style="width: 88px;" href="{{ project.url }}" class="btn btn-white btn-xs"><i class="fa fa-file"></i> Read More</a>
-              
+
+                    <a target="_blank" style="width: 88px;" href="{{ project.plink }}" class="btn btn-white btn-xs"><i class="fa fa-file"></i> Read More</a>
+
+                  {% endif %}
+                  {% if project.glink %}
+
+                    <a target="_blank" style="width: 88px;" href="{{ project.glink }}" class="btn btn-white btn-xs"><i class="fa fa-file"></i> Github</a>
+
                   {% endif %}
               </div>
           </div>

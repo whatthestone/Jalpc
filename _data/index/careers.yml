@@ -4,7 +4,10 @@
     detail: Ninja Van
     i18n: company_a
   desc:
-    detail: Undertook the low-cost dimensioning project to prepare for rolling out, created personalized scoping canvas for internal use, pioneered PM workshops for university outreach.
+    detail:
+      '- Undertook the low-cost dimensioning project in Regional Operations. <br/>
+      - Created personalized scoping canvas for internal use. <br/>
+      - Pioneered PM workshops for university outreach.'
     i18n: company_a_desc
   date:
     detail: Jun 2019 - Aug 2019
@@ -18,7 +21,10 @@
     detail: Elevate Security
     i18n: company_b
   desc:
-    detail: Designed and implemented features for an online platform for security behavioural change, Hackers' Mind. Piloted the first-ever security behavioural measurement scorecard for client's employees. Produced company's first promotional video for hiring.
+    detail:
+      "- Designed and implemented features for an online platform for security behavioural change, Hackers' Mind. <br/>
+      - Piloted the first-ever security behavioural measurement scorecard for client's employees.<br/>
+      - Produced company's first promotional video for hiring."
     i18n: company_b_desc
   date:
     detail: Jan 2019 - Dec 2019

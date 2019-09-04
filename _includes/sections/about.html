@@ -1,8 +1,8 @@
 <div class="container" id="i18_about_me">
     <div class="row m-b-lg">
         <div class="col-lg-12 text-center">
-            <div class="navy-line"></div>
-            <h1><span data-i18n="about_me.about_me">About Me</span></h1>
+            <div style="width: 60px; height: 1px; margin: 60px auto 0;"></div>
+            <h1><span data-i18n="about_me.about_me">Hello, I am <span style="color: #3385FF">Kai Sing</span> Ng.</span></h1>
             <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
         </div>
     </div>
@@ -12,7 +12,7 @@
         <div class="col-xs-2 wow fadeInLeft">
             <div class="team-member">
                 <div class="vote-icon">
-                    <i class="fa {{ icon.name }}"></i>
+                    <!-- <i class="fa {{ icon.name }}"></i> -->
                 </div>
             </div>
         </div>
@@ -21,30 +21,25 @@
         <div class="col-xs-4">
             <div class="team-member wow zoomIn">
                 <a href="/kaising/about"><img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt=""></a>
-                <h4><span class="navy">{{ site.author.first_name }}</span> {{ site.author.last_name }}</h4>
+              <br>
                 <ul class="list-inline social-icon">
+
+                    {% if site.author.email %}
+                    <li style="padding:5px"><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                    {% endif %}
+                    {% if site.author.cv %}
+                    <li style="padding:5px"><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    {% endif %}
+                    <li style="padding:5px"><a href="skype:live:kaising.n?call"><i class="fa fa-skype"></i></a></li>
                     {% if site.author.github_username %}
-                    <li><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
-                    {% endif %}
-                    {% if site.author.linkedin_id %}
-                    <li><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
-                    {% endif %}
-                    {% if site.author.facebook_username %}
-                    <li><a href="https://www.facebook.com/{{ site.author.facebook_username }}" target="blank"><i class="fa fa-facebook"></i></a></li>
+                    <li style="padding:5px"><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
                     {% endif %}
                     {% if site.author.twitter_username %}
-                    <li><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li style="padding:5px"><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
                     {% endif %}
-                    {% if site.author.email %}
-                    <li><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                    {% if site.author.linkedin_id %}
+                    <li style="padding:5px"><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
                     {% endif %}
-<!--                     <li><a href="{{ site.baseurl }}/feed.xml" target="blank"><i class="fa fa-rss"></i></a></li> -->
-                    {% if site.author.cv %}
-                    <li><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
-                    {% endif %}
-                    <li>  
-                    <a href="skype:live:kaising.n?call"><i class="fa fa-skype"></i></a>
-                    </li>
 
                 </ul>
             </div>
@@ -54,7 +49,7 @@
         <div class="col-xs-2 wow fadeInRight">
             <div class="team-member">
                 <div class="vote-icon">
-                    <i class="fa {{ icon.name }}"></i>
+                    <!-- <i class="fa {{ icon.name }}"></i> -->
                 </div>
             </div>
         </div>
@@ -64,11 +59,22 @@
     <div class="row">
         <div class="col-s-8 col-s-offset-2 text-center m-t-xs m-b-xs wow zoomIn">
 
-            <button type="button" class="btn btn-default btn-sm"><a href="http://www.nus.edu.sg/">National University of Singapore</a></button>
-            <button type="button" class="btn btn-default btn-sm"><a href="http://www.ceg.nus.edu.sg/">B.Eng (Computer Engineering)</a></button>
-            <button type="button" class="btn btn-default btn-sm"><a href="http://www.eng.nus.edu.sg/edic/dcp.html">Innovation & Design Centric Program </a></button>
+            <a style="color:black;" target="blank" href="http://www.nus.edu.sg/">National University of Singapore</a>
+            |
+            <a style="color:black;" target="blank" href="http://www.ceg.nus.edu.sg/">B.Eng (Computer Engineering)</a>
+
         </div>
     </div>
+
+    <div class="row">
+        <div class="col-s-8 col-s-offset-2 text-center m-t-xs m-b-xs wow zoomIn">
+
+            <button type="button" class="btn btn-default btn-sm"><a target="blank" href="http://www.eng.nus.edu.sg/edic/dcp.html">Innovation & Design Centric Program </a></button>
+            <button type="button" class="btn btn-default btn-sm"><a target="blank" href="https://enterprise.nus.edu.sg/educate/nus-overseas-colleges/programmes/silicon-valley">NUS Overseas Colleges (Silicon Valley)</a></button>
+        </div>
+    </div>
+
+
 
     <div class="row">
         <div class="col-lg-8 col-lg-offset-2 text-center m-t-lg m-b-lg wow zoomIn">
@@ -76,12 +82,13 @@
         </div>
     </div>
 
+    {% if false %}
      <div class="row">
         <center>
             <div class="col-xl-2 m-t-s m-b-lg wow zoomIn about-icon">
                  <a class="m-b-lg" data-toggle="collapse" href="#readmore" aria-expanded="false" area-controls="readmore">Read More</a>
                     <!-- <button class="about-icon" type="button" data-toggle="collapse" data-target="#readmore" aria-expanded="false" aria-controls="readmore"></button> -->
-                
+
                  <div class="collapse" id="readmore">
                     <div class ="row">
                        <center>  <div class="col-lg-8 col-lg-offset-2 col-md-8 col-md-offset-2 col-sm-10 col-sm-offset-1 col-xs-10 col-xs-offset-1">
@@ -99,4 +106,5 @@
             </div>
         </center>
     </div>
+    {% endif %}
 </div>

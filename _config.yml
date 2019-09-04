@@ -15,11 +15,11 @@ author:  # change following line to your infomation.
   first_name: Kai Sing  # Be used at index page about me section.
   last_name: Ng  # Be used at index page about me section.
   avatar: /static/assets/img/landing/avatar.jpg  # upload your avatar at directory and edit it.
-  github_username: whatthestone  # Leave blank if you don't have now
+  github_username: # Leave blank if you don't have now
   linkedin_id: kaising-ng # Leave blank if you don't have now
   facebook_username: kaising  # Leave blank if you don't have now
-  twitter_username:   # Leave blank if you don't have now
-  email: ng.kaising@u.nus.edu  # Leave blank if you don't have now
+  twitter_username: whatthestone   # Leave blank if you don't have now
+  email: kaising.n@gmail.com  # Leave blank if you don't have now
   cv: /kaising/Kai%20Sing%20Resume%202019_09.pdf # An online CV can be printed as PDF, leave blank if you don't have now
   skype:
   # skill icons are on avatar's left and right side. Reference urls are http://fontawesome.io/ and http://fizzed.com/oss/font-mfizz
@@ -29,7 +29,7 @@ author:  # change following line to your infomation.
   skill_icon2:
     - name: icon-raspberrypi
     - name: icon-git
-  desc: A computer engineering student who gets excited about everything tech and design.  # Describe yourself.
+  desc: A pragmatic but creative moth who gets excited about everything tech, sports, design and lights. </br> Also, a people-gatherer and party-planner.  # Describe yourself.
 
 # comment
 disqus:  # if you wanna comment feature, go to https://disqus.com/ to get your configuration; if not, comment following two lines.

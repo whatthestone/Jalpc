@@ -1,24 +1,27 @@
 # projects section data
 # If you don't have language feature(language.yml is empty), ignore "i18n" items
 # Suggest projects' img be located at '/static/assets/img/landing', and edit following img items.
-- name: Emeraldo
-  i18n: emeraldo
-  gh_user: CS2103AUG2016-T10-C3
-  repo: main
-  img: /static/assets/img/landing/emeraldo.png
-  desc: A command-line task manager written in java for a software engineering module.
+- name: Snipped
+  i18n: snipped
+  url: https://github.com/weikangong/snipped
+  glink: https://github.com/weikangong/snipped
+  plink: /kaising/portfolio/2018/10/10/snipped.html
+  img: /static/assets/img/landing/snipped.png
+  portfolio: True
+  desc: A platform to match events to people.
 
 - name: MedSlack
-  i18n: medslack 
+  i18n: medslack
   url: /kaising/portfolio/2017/10/08/MedSlack.html
+  plink: /kaising/portfolio/2017/10/08/MedSlack.html
   img: /static/assets/img/landing/medslack.png
   portfolio: True
-  desc: Mess-free solution to collect and analyse vital signs. 
+  desc: Mess-free solution to collect and analyse vital signs.
 
 - name: GramPS
   i18n: gramps
-  url: /kaising/portfolio/2016/11/01/Gramps.html
+  url: /kaising/portfolio/2017/10/08/Gramps.html
+  plink: /kaising/portfolio/2017/10/08/Gramps.html
   img: /static/assets/img/landing/gramps.png
   portfolio: True
-  desc: A GPS smart watch to encourage elderly with restricted mobility to go the extra mile! 
-
+  desc: A navigation system for the elderly with limited mobility.
