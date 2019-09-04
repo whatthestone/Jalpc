@@ -704,6 +704,16 @@ button.dim {
   margin: 3px;
 }
 
+.mrflexi {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.fa-xl {
+  font-size: 1.6em;
+}
+
 button {
   &.dim {
     text-decoration: none;
@@ -2662,8 +2672,8 @@ body {
     background: #3385FF;
     color: #fff;
     padding: 4px 8px;
-    height: 28px;
-    width: 28px;
+    height: 48px;
+    width: 48px;
     display: block;
     border-radius: 50px;
     &:hover {

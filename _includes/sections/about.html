@@ -6,54 +6,38 @@
             <!-- <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod.</p> -->
         </div>
     </div>
-    <div class="row">
+    <div class="row" style="display: flex; align-items: center; justify-content: center;">
         <!-- first two icons -->
-        {% for icon in site.author.skill_icon1 %}
-        <div class="col-xs-2 wow fadeInLeft">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <!-- <i class="fa {{ icon.name }}"></i> -->
-                </div>
-            </div>
-        </div>
-        {% endfor %}
+
         <!-- avatar -->
-        <div class="col-xs-4">
+        <div class="col-xs-8">
             <div class="team-member wow zoomIn">
                 <a href="/kaising/about"><img src="{{ site.author.avatar | prepend: site.baseurl }}" height="110" width="110" class="img-responsive img-circle" alt=""></a>
               <br>
                 <ul class="list-inline social-icon">
 
                     {% if site.author.email %}
-                    <li style="padding:5px"><a href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o"></i></a></li>
+                    <li style="padding:5px"><a class="mrflexi" href="mailto:{{ site.author.email }}"><i class="fa fa-envelope-o fa-xl"></i></a></li>
                     {% endif %}
                     {% if site.author.cv %}
-                    <li style="padding:5px"><a href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o"></i></a></li>
+                    <li style="padding:5px"><a class="mrflexi" href="{{ site.author.cv }}" target="blank"><i class="fa fa-file-pdf-o fa-xl"></i></a></li>
                     {% endif %}
-                    <li style="padding:5px"><a href="skype:live:kaising.n?call"><i class="fa fa-skype"></i></a></li>
+                    <li style="padding:5px"><a class="mrflexi" href="skype:live:kaising.n?call"><i class="fa fa-skype fa-xl"></i></a></li>
                     {% if site.author.github_username %}
-                    <li style="padding:5px"><a href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github"></i></a></li>
+                    <li style="padding:5px"><a class="mrflexi" href="https://github.com/{{ site.author.github_username }}" target="blank"><i class="fa fa-github fa-xl"></i></a></li>
                     {% endif %}
                     {% if site.author.twitter_username %}
-                    <li style="padding:5px"><a href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter"></i></a></li>
+                    <li style="padding:5px"><a class="mrflexi" href="https://twitter.com/{{ site.author.twitter_username }}" target="blank"><i class="fa fa-twitter fa-xl"></i></a></li>
                     {% endif %}
                     {% if site.author.linkedin_id %}
-                    <li style="padding:5px"><a href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin"></i></a></li>
+                    <li style="padding:5px"><a class="mrflexi" href="https://www.linkedin.com/in/{{ site.author.linkedin_id }}" target="blank"><i class="fa fa-linkedin fa-xl"></i></a></li>
                     {% endif %}
 
                 </ul>
             </div>
         </div>
         <!-- second two icons -->
-        {% for icon in site.author.skill_icon2 %}
-        <div class="col-xs-2 wow fadeInRight">
-            <div class="team-member">
-                <div class="vote-icon">
-                    <!-- <i class="fa {{ icon.name }}"></i> -->
-                </div>
-            </div>
-        </div>
-        {% endfor %}
+
     </div>
 
     <div class="row">
@@ -69,8 +53,8 @@
     <div class="row">
         <div class="col-s-8 col-s-offset-2 text-center m-t-xs m-b-xs wow zoomIn">
 
-            <button type="button" class="btn btn-default btn-sm"><a target="blank" href="http://www.eng.nus.edu.sg/edic/dcp.html">Innovation & Design Centric Program </a></button>
-            <button type="button" class="btn btn-default btn-sm"><a target="blank" href="https://enterprise.nus.edu.sg/educate/nus-overseas-colleges/programmes/silicon-valley">NUS Overseas Colleges (Silicon Valley)</a></button>
+            <button type="button" class="btn btn-default btn-sm btn-pad"><a target="blank" href="http://www.eng.nus.edu.sg/edic/dcp.html">Innovation & Design Centric Program </a></button>
+            <button type="button" class="btn btn-default btn-sm btn-pad"><a target="blank" href="https://enterprise.nus.edu.sg/educate/nus-overseas-colleges/programmes/silicon-valley">NUS Overseas Colleges (Silicon Valley)</a></button>
         </div>
     </div>
 
