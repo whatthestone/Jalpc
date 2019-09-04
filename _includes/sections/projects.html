@@ -17,7 +17,7 @@
             {% else %}
             <div class="col-sm-4 wow {% if loopindex == 1 %} fadeInLeft {% else %} fadeInRight {% endif %}">
             {% endif %}
-              <div class="team-member" style="padding: 10px">
+              <div class="team-member" style="padding: 20px">
                   <img src="{{ project.img | prepend: site.baseurl }}" class="img-responsive img-circle img-small" alt="">
                   <h4>
                   {% if project.url %}
@@ -29,21 +29,15 @@
                   {% endif %}
                   </h4>
                   <p><span data-i18n="projects.{{ project.i18n }}">{{ project.desc }}</span></p>
-                  {% if project.repo %}
-                  <div user="{{ project.gh_user }}" repo="{{ project.repo }}" class="ghbtn">
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/stargazers" class="btn btn-white btn-xs star"><i class="fa fa-star"></i> ...</a>&emsp;&emsp;
-                      <a target="_blank" style="width: 65px;" href="https://github.com/{{ project.gh_user }}/{{ project.repo }}/network" class="btn btn-white btn-xs fork"><i class="fa fa-code-fork"></i> ...</a>
-                      <div style="height: 10px;"></div>
-                  </div>
-                  {% endif %}
+
                   {% if project.portfolio %}
 
-                    <a target="_blank" style="width: 88px;" href="{{ project.plink }}" class="btn btn-white btn-xs"><i class="fa fa-file"></i> Read More</a>
+                    <a target="_blank" href="{{ project.plink }}" class="btn btn-white btn-xs">Read More</a>
 
                   {% endif %}
                   {% if project.glink %}
 
-                    <a target="_blank" style="width: 88px;" href="{{ project.glink }}" class="btn btn-white btn-xs"><i class="fa fa-file"></i> Github</a>
+                    <a target="_blank" href="{{ project.glink }}" class="btn btn-white btn-xs">Github</a>
 
                   {% endif %}
               </div>
