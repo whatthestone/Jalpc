@@ -5,7 +5,15 @@
             <h1><span data-i18n="skills.my_skills">My Skills</span></h1>
         </div>
     </div>
-    <div class="row features-block">
+
+    <div class="row">
+      <div style="padding: 20px; display: flex; justify-content: center; flex-wrap: wrap;">
+        {% for skill in site.data.index.skills %}
+        <button type="button" class="btn btn-pad btn-primary btn-sm btn-nohover">{{skill.id}}</button>
+        {% endfor %}
+      </div>
+    </div>
+    <!-- <div class="row features-block">
         <div class="wow zoomIn col-lg-6 col-lg-offset-3">
             <canvas id="{{ site.data.index.skills.id }}" height="500" width="500"></canvas>
         </div>
@@ -39,5 +47,5 @@
             }
         });
         </script>
-    </div>
+    </div> -->
 </div>

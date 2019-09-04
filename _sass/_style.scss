@@ -700,6 +700,10 @@ button.dim {
   font-size: 42px;
 }
 
+.btn-pad {
+  margin: 3px;
+}
+
 button {
   &.dim {
     text-decoration: none;
@@ -753,6 +757,10 @@ button {
     display: block;
     padding-top: 10px;
   }
+}
+
+.btn-nohover:hover {
+  cursor: auto;
 }
 
 .label {
@@ -2455,7 +2463,7 @@ body {
       }
       .active > a:focus {
         background: 0 0;
-        
+
       }
     }
     &.navbar-scroll .navbar-nav > .active > a:focus {
@@ -2681,10 +2689,6 @@ body {
     height: 88px;
     width: 88px;
   }
-  .btn-primary {
-    font-weight: 600;
-    font-size: 14px;
-  }
   .testimonials {
     padding-top: 80px;
     padding-bottom: 90px;
@@ -2722,12 +2726,14 @@ body {
     background-color: #3385FF;
     border-color: #3385FF;
     color: #FFF;
+    border-radius: 15px;
+    padding: 5px 20px;
+    font-weight: 600;
     &.active, &:active, &:focus, &:hover {
       background-color: #3385FF;
       border-color: #3385FF;
       color: #FFF;
     }
-    padding: 10px 20px;
     &.active, &:active {
       background-image: none;
     }
