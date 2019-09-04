@@ -1,26 +1,40 @@
-# blog page sections
-- name: Blog
-  href: /blog/
-
 # # edit following lines to custom your blog page, make sure name is the same as href but capitalized first letter(except HTML)
+
+
+- id: about-me
+  i18n: nav.about_me
+  name: About
+  tpl: about.html
+  css:
+  href: /
+
+- id: career
+  i18n: nav.career
+  name: Career
+  tpl: career.html
+  css: timeline
+  href: /
+
+- id: skills
+  i18n: nav.skills
+  name: Skills
+  tpl: skills.html
+  css: team
+  href: /
+
+- id: projects
+  i18n: nav.projects
+  name: Projects
+  tpl: projects.html
+  css: project
+  href: /
+
 - name: Portfolio
   href: /portfolio/
 
-# - name: Personal Statement
-#   href: /about/
-
-# - name: HTML
-#   href: /html/
-
-# - name: Database
-#   href: /database/
-
-# - name: Mac
-#   href: /mac/
-
-# - name: Life
-#   href: /life/
-
-# # Don't display donation page: change donation to off at file '_config.yml'
-# - name: Donate
-#   href: /donate/
+- id: links
+  i18n: nav.link
+  name: Resume
+  tpl: links.html
+  css: contact
+  href: /
